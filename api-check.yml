@@ -4,11 +4,10 @@ spring:
   application:
     name: api-check
   datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/checkAgro-dev
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/checkAgro-dev
     username: usr-checkAgro
     password: pwd-checkAgro
-
   jpa:
     generate-ddl: true
     hibernate:
@@ -19,7 +18,7 @@ spring:
       ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL55Dialect
+        dialect: org.hibernate.dialect.PostgreSQL10Dialect
         format_sql: true
     show-sql: false
 
