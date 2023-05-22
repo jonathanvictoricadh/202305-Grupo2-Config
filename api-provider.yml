@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: api-provider
- datasource:
+  datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/checkAgro-dev
     username: usr-checkAgro
