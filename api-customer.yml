@@ -17,7 +17,7 @@ spring:
 
 info:
   application:
-    name: api-inscription
+    name: api-customer
 
 eureka:
    healthcheck:
