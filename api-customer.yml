@@ -8,7 +8,7 @@ spring:
       username: usr-inscription-mongo
       password: pwd-inscription-mongo
       database: inscription-dev-mongo
-      port: 27018
+      port: 27017
       host: localhost
   jpa:
     hibernate.ddl-auto: update
