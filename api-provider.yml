@@ -7,7 +7,7 @@ spring:
     username: guest
     password: guest
     host: localhost
-    port: 5672
+    port: 15672
   zipkin:
     baseUrl: http://localhost:9411/  
   datasource:
